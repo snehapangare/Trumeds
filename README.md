@@ -1,16 +1,54 @@
-# React + Vite
+# 🛍️ Beauty Store (React + Redux)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a **React + Redux based e-commerce application** where users can browse beauty products, filter by category, and add items to the cart.
 
-Currently, two official plugins are available:
+The project demonstrates **React, Redux Toolkit, routing, and dynamic product filtering**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Display beauty products
+- Filter products by category and subcategory
+- Add products to cart
+- Remove products from cart
+- Quantity increase / decrease
+- Price calculation with discount
+- Login check before checkout
+- Responsive product layout
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- React.js
+- Redux Toolkit
+- React Router DOM
+- JavaScript
+- CSS
+
+---
+
+
+## 📂 Project Structure
+
+src
+│
+├── Components
+│ └── Navbar
+│
+├── Pages
+│ ├── Home.jsx
+│ ├── Beauty.jsx
+│ └── Cart.jsx
+│
+├── Redux
+│ ├── Slice
+│ │ ├── BeautySlice.js
+│ │ └── AuthSlice.js
+│ │
+│ └── Action.js
+│
+└── App.jsx
+
+
