@@ -1,0 +1,48 @@
+.profile-container {
+  margin-top: 80px;
+}
+
+/* Main Card */
+.profile-card {
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  background: #fff;
+}
+
+/* Image */
+.profile-img {
+  width: 130px;
+  height: 130px;
+  border-radius: 12px;
+  object-fit: cover;
+  border: 3px solid #24aeb1;
+}
+
+/* Name */
+.profile-name {
+  font-weight: 700;
+  color: #222;
+}
+
+/* Email */
+.profile-email {
+  color: #777;
+  margin-bottom: 15px;
+}
+
+/* Info Section */
+.profile-info p {
+  margin: 6px 0;
+  font-size: 14px;
+}
+
+/* Buttons */
+.profile-actions {
+  margin-top: 15px;
+}
+
+.profile-actions .btn {
+  border-radius: 8px;
+  padding: 6px 14px;
+}

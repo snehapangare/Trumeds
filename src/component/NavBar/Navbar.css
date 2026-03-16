@@ -1,0 +1,126 @@
+REMOVE DEFAULT BODY GAP
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-container {
+  background-color: #1C958F;
+  padding: 12px 40px;
+  position: relative;
+}
+
+
+.nav-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.nav-item {
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  position: relative;
+  font-size: 15px;
+  padding: 5px 10px;
+}
+
+.nav-item:hover {
+  opacity: 0.95;
+}
+
+
+
+.medicine-item {
+  position: relative;
+}
+
+
+.mega-menu {
+  position: absolute;
+  top: 100%;   
+  left: 0;
+  width: 600px;
+  background: rgb(193, 147, 147);
+  display: none;   
+  border-radius: 8px;
+  padding: 10px 0;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+  z-index: 999;
+}
+
+
+.medicine-item:hover .mega-menu {
+  display: flex;
+}
+
+
+
+.menu-left {
+  width: 40%;
+  background: #2c2828;
+  padding: 10px;
+  border-right: 1px solid #eee;
+}
+
+.menu-left p {
+  margin: 0;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 5px;
+  transition: 0.2s;
+}
+
+.menu-left p:hover,
+.menu-left .active {
+  background: #161818;
+  font-weight: 600;
+}
+
+
+
+.menu-right {
+  width: 60%;
+  padding: 10px 15px;
+  max-height: 260px;
+  overflow-y: auto;
+}
+
+
+.submenu-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5px;
+}
+
+
+.menu-right p {
+  margin: 0;
+  padding: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 4px;
+  transition: 0.2s;
+}
+
+
+.menu-right p:hover {
+  color: #1C958F;
+  background: #171a1a;
+}
+
+
+.menu-right::-webkit-scrollbar {
+  width: 5px;
+}
+
+.menu-right::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 10px;
+}

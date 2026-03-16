@@ -1,0 +1,76 @@
+"medicines": [
+    { "id": 1, "name": "Paracetamol", "brand": "Cipla", "disease": "Fever", "bodyPart": "Head", "price": 50, "image": "https://via.placeholder.com/150" },
+    { "id": 2, "name": "Crocin", "brand": "GSK", "disease": "Fever", "bodyPart": "Head", "price": 60, "image": "https://via.placeholder.com/150" },
+
+    { "id": 3, "name": "Benadryl", "brand": "Johnson & Johnson", "disease": "Cough & Cold", "bodyPart": "Lungs", "price": 120, "image": "https://via.placeholder.com/150" },
+    { "id": 4, "name": "Ascoril", "brand": "Glenmark", "disease": "Cough & Cold", "bodyPart": "Lungs", "price": 140, "image": "https://via.placeholder.com/150" },
+
+    { "id": 5, "name": "Ketoconazole", "brand": "Nizoral", "disease": "Dandruff", "bodyPart": "Skin", "price": 200, "image": "https://via.placeholder.com/150" },
+    { "id": 6, "name": "Scalpe Plus", "brand": "Glenmark", "disease": "Dandruff", "bodyPart": "Skin", "price": 220, "image": "https://via.placeholder.com/150" },
+
+    { "id": 7, "name": "Metformin", "brand": "Sun Pharma", "disease": "Diabetes", "bodyPart": "Kidney", "price": 80, "image": "https://via.placeholder.com/150" },
+    { "id": 8, "name": "Insulin", "brand": "Novo Nordisk", "disease": "Diabetes", "bodyPart": "Kidney", "price": 300, "image": "https://via.placeholder.com/150" },
+
+    { "id": 9, "name": "ORS", "brand": "Electral", "disease": "Diarrhoea", "bodyPart": "Stomach", "price": 20, "image": "https://via.placeholder.com/150" },
+    { "id": 10, "name": "Loperamide", "brand": "Imodium", "disease": "Diarrhoea", "bodyPart": "Stomach", "price": 40, "image": "https://via.placeholder.com/150" },
+
+    { "id": 11, "name": "Pantoprazole", "brand": "Pantocid", "disease": "Digestion", "bodyPart": "Stomach", "price": 90, "image": "https://via.placeholder.com/150" },
+    { "id": 12, "name": "Digene", "brand": "Abbott", "disease": "Digestion", "bodyPart": "Stomach", "price": 30, "image": "https://via.placeholder.com/150" },
+
+    { "id": 13, "name": "Atorvastatin", "brand": "Lipitor", "disease": "High Cholesterol", "bodyPart": "Heart", "price": 150, "image": "https://via.placeholder.com/150" },
+    { "id": 14, "name": "Rosuvastatin", "brand": "Crestor", "disease": "High Cholesterol", "bodyPart": "Heart", "price": 180, "image": "https://via.placeholder.com/150" },
+
+    { "id": 15, "name": "Amlodipine", "brand": "Norvasc", "disease": "Hypertension", "bodyPart": "Heart", "price": 100, "image": "https://via.placeholder.com/150" },
+    { "id": 16, "name": "Losartan", "brand": "Cozaar", "disease": "Hypertension", "bodyPart": "Heart", "price": 120, "image": "https://via.placeholder.com/150" },
+
+    { "id": 17, "name": "Chloroquine", "brand": "Cipla", "disease": "Malaria", "bodyPart": "Blood", "price": 70, "image": "https://via.placeholder.com/150" },
+    { "id": 18, "name": "Artemether", "brand": "Ipca", "disease": "Malaria", "bodyPart": "Blood", "price": 150, "image": "https://via.placeholder.com/150" },
+
+    { "id": 19, "name": "Cyclobenzaprine", "brand": "Flexeril", "disease": "Muscle Spasm", "bodyPart": "Bones", "price": 140, "image": "https://via.placeholder.com/150" },
+    { "id": 20, "name": "Baclofen", "brand": "Lioresal", "disease": "Muscle Spasm", "bodyPart": "Bones", "price": 160, "image": "https://via.placeholder.com/150" },
+
+    { "id": 21, "name": "Diclofenac", "brand": "Voveran", "disease": "Pain Relief", "bodyPart": "Bones", "price": 90, "image": "https://via.placeholder.com/150" },
+    { "id": 22, "name": "Ibuprofen", "brand": "Brufen", "disease": "Pain Relief", "bodyPart": "Bones", "price": 80, "image": "https://via.placeholder.com/150" },
+
+    { "id": 23, "name": "Amoxicillin", "brand": "Mox", "disease": "Bacterial Infections", "bodyPart": "Lungs", "price": 110, "image": "https://via.placeholder.com/150" },
+    { "id": 24, "name": "Azithromycin", "brand": "Azee", "disease": "Bacterial Infections", "bodyPart": "Lungs", "price": 130, "image": "https://via.placeholder.com/150" },
+
+    { "id": 25, "name": "Eye Drops", "brand": "Refresh", "disease": "Cough & Cold", "bodyPart": "Eyes", "price": 90, "image": "https://via.placeholder.com/150" },
+    { "id": 26, "name": "Lubricant Drops", "brand": "Systane", "disease": "Cough & Cold", "bodyPart": "Eyes", "price": 120, "image": "https://via.placeholder.com/150" },
+
+    { "id": 27, "name": "Liver Tonic", "brand": "Himalaya", "disease": "Digestion", "bodyPart": "Liver", "price": 140, "image": "https://via.placeholder.com/150" },
+    { "id": 28, "name": "UDCA", "brand": "Abbott", "disease": "Digestion", "bodyPart": "Liver", "price": 300, "image": "https://via.placeholder.com/150" },
+
+    { "id": 29, "name": "Kidney Care", "brand": "Himalaya", "disease": "Diabetes", "bodyPart": "Kidney", "price": 200, "image": "https://via.placeholder.com/150" },
+    { "id": 30, "name": "Nephro Tabs", "brand": "Cipla", "disease": "Diabetes", "bodyPart": "Kidney", "price": 250, "image": "https://via.placeholder.com/150" },
+
+    { "id": 31, "name": "Brain Booster", "brand": "Himalaya", "disease": "Hypertension", "bodyPart": "Brain", "price": 180, "image": "https://via.placeholder.com/150" },
+    { "id": 32, "name": "Neurobion", "brand": "Merck", "disease": "Hypertension", "bodyPart": "Brain", "price": 150, "image": "https://via.placeholder.com/150" },
+
+    { "id": 33, "name": "Bone Strength", "brand": "Shelcal", "disease": "Pain Relief", "bodyPart": "Bones", "price": 160, "image": "https://via.placeholder.com/150" },
+    { "id": 34, "name": "Calcium Tabs", "brand": "Cipla", "disease": "Pain Relief", "bodyPart": "Bones", "price": 140, "image": "https://via.placeholder.com/150" },
+
+    { "id": 35, "name": "Skin Cream", "brand": "Dermadew", "disease": "Dandruff", "bodyPart": "Skin", "price": 120, "image": "https://via.placeholder.com/150" },
+    { "id": 36, "name": "Anti Fungal", "brand": "Candid", "disease": "Dandruff", "bodyPart": "Skin", "price": 130, "image": "https://via.placeholder.com/150" },
+
+    { "id": 37, "name": "Cough Tablet", "brand": "Vicks", "disease": "Cough & Cold", "bodyPart": "Lungs", "price": 60, "image": "https://via.placeholder.com/150" },
+    { "id": 38, "name": "Cold Syrup", "brand": "Zandu", "disease": "Cough & Cold", "bodyPart": "Lungs", "price": 70, "image": "https://via.placeholder.com/150" },
+
+    { "id": 39, "name": "Fever Tablet", "brand": "Dolo", "disease": "Fever", "bodyPart": "Head", "price": 55, "image": "https://via.placeholder.com/150" },
+    { "id": 40, "name": "Fever Relief", "brand": "Calpol", "disease": "Fever", "bodyPart": "Head", "price": 65, "image": "https://via.placeholder.com/150" },
+
+    { "id": 41, "name": "Digestive Syrup", "brand": "Dabur", "disease": "Digestion", "bodyPart": "Stomach", "price": 90, "image": "https://via.placeholder.com/150" },
+    { "id": 42, "name": "Gas Relief", "brand": "Eno", "disease": "Digestion", "bodyPart": "Stomach", "price": 30, "image": "https://via.placeholder.com/150" },
+
+    { "id": 43, "name": "BP Tablet", "brand": "Cipla", "disease": "Hypertension", "bodyPart": "Heart", "price": 110, "image": "https://via.placeholder.com/150" },
+    { "id": 44, "name": "Cholesterol Care", "brand": "Sun Pharma", "disease": "High Cholesterol", "bodyPart": "Heart", "price": 170, "image": "https://via.placeholder.com/150" },
+
+    { "id": 45, "name": "Pain Spray", "brand": "Volini", "disease": "Pain Relief", "bodyPart": "Bones", "price": 180, "image": "https://via.placeholder.com/150" },
+    { "id": 46, "name": "Muscle Gel", "brand": "Moov", "disease": "Muscle Spasm", "bodyPart": "Bones", "price": 150, "image": "https://via.placeholder.com/150" },
+
+    { "id": 47, "name": "Antibiotic", "brand": "Ciplox", "disease": "Bacterial Infections", "bodyPart": "Lungs", "price": 140, "image": "https://via.placeholder.com/150" },
+    { "id": 48, "name": "Infection Care", "brand": "Zifi", "disease": "Bacterial Infections", "bodyPart": "Lungs", "price": 130, "image": "https://via.placeholder.com/150" },
+
+    { "id": 49, "name": "Malaria Cure", "brand": "Lariago", "disease": "Malaria", "bodyPart": "Blood", "price": 100, "image": "https://via.placeholder.com/150" },
+    { "id": 50, "name": "Anti Malaria", "brand": "Falcigo", "disease": "Malaria", "bodyPart": "Blood", "price": 120, "image": "https://via.placeholder.com/150" }
+  ]

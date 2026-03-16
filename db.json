@@ -1,0 +1,373 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "snehapangare",
+      "password": "sneha123",
+      "name": "Sneha"
+    }
+  ],
+  "Login": [
+    {
+      "id": "1",
+      "username": "snehapangare",
+      "password": "sneha123",
+      "name": "Sneha",
+      "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
+      "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
+    }
+],
+  "refresh": [
+    {
+      "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
+      "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
+    }
+  ],
+   "medicines": [
+    { "id": 1, "name": "Paracetamol", "brand": "Cipla", "category": "General Medicine", "subCategory": "Fever", "disease": "Fever", "bodyPart": "Head", "price": 50, "image": "https://assets.sayacare.in/api/images/product_image/large_image/23/74/Paracetamol-500-mg-Tablet_1.webp" },
+    { "id": 2, "name": "Crocin", "brand": "GSK", "category": "General Medicine", "subCategory": "Fever", "disease": "Fever", "bodyPart": "Head", "price": 60, "image": "https://ayushcare.in/cdn/shop/products/crocin650.jpg?v=1747141248" },
+
+    { "id": 3, "name": "Benadryl", "brand": "Johnson & Johnson", "category": "Respiratory Care", "subCategory": "Cough & Cold", "disease": "Cough & Cold", "bodyPart": "Lungs", "price": 120, "image": "https://images.apollo247.in/pub/media/catalog/product/b/e/ben0053_1.jpg" },
+    { "id": 4, "name": "Ascoril", "brand": "Glenmark", "category": "Respiratory Care", "subCategory": "Cough & Cold", "disease": "Cough & Cold", "bodyPart": "Lungs", "price": 140, "image": "https://images.apollo247.in/pub/media/catalog/product/a/s/asc0019.jpg" },
+
+    { "id": 5, "name": "Ketoconazole", "brand": "Nizoral", "category": "Hair Care", "subCategory": "Dandruff", "disease": "Dandruff", "bodyPart": "Skin", "price": 200, "image": "https://wonneinternational.com/wp-content/uploads/2022/10/Ketoconazole-2-wv-Zinc-Pyrithione-1-ZPTO-shampoo-Keaton-ZPTO-Shampoo-100-ML-2-scaled.jpg" },
+    { "id": 6, "name": "Scalpe Plus", "brand": "Glenmark", "category": "Hair Care", "subCategory": "Dandruff", "disease": "Dandruff", "bodyPart": "Skin", "price": 220, "image": "https://rukminim2.flixcart.com/image/300/300/xif0q/allopathy/n/1/n/-original-imahfyyjx9u4z2et.jpeg" },
+
+    { "id": 7, "name": "Metformin", "brand": "Sun Pharma", "category": "Chronic Care", "subCategory": "Diabetes", "disease": "Diabetes", "bodyPart": "Kidney", "price": 80, "image": "https://a.storyblok.com/f/285407055876385/1126x844/7df698963b/metformin.jpg" },
+    { "id": 8, "name": "Insulin", "brand": "Novo Nordisk", "category": "Chronic Care", "subCategory": "Diabetes", "disease": "Diabetes", "bodyPart": "Kidney", "price": 300, "image": "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/BigBead/how_insulin_works_bigbead/1800x1200_how_insulin_works_bigbead.jpg?resize=750px:*&output-quality=75" },
+
+    { "id": 9, "name": "ORS", "brand": "Electral", "category": "Digestive Care", "subCategory": "Diarrhoea", "disease": "Diarrhoea", "bodyPart": "Stomach", "price": 20, "image": "https://5.imimg.com/data5/SELLER/Default/2021/4/CE/CA/LU/37342360/ors-sachets.png" },
+    { "id": 10, "name": "Loperamide", "brand": "Imodium", "category": "Digestive Care", "subCategory": "Diarrhoea", "disease": "Diarrhoea", "bodyPart": "Stomach", "price": 40, "image": "https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/4fd6c5c197804eef854b2817ac6a7a41.jpg" },
+
+    { "id": 11, "name": "Pantoprazole", "brand": "Pantocid", "category": "Digestive Care", "subCategory": "Digestion", "disease": "Digestion", "bodyPart": "Stomach", "price": 90, "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrEcM-zJqOJVTngnE83g3qncbgEbR87H7prw&s" },
+    { "id": 12, "name": "Digene", "brand": "Abbott", "category": "Digestive Care", "subCategory": "Digestion", "disease": "Digestion", "bodyPart": "Stomach", "price": 30, "image": "https://www.clickoncare.com/cdn/shop/products/digene-antigas-mint-3674406628.jpg?v=1681808497" },
+
+    { "id": 13, "name": "Atorvastatin", "brand": "Lipitor", "category": "Heart Care", "subCategory": "High Cholesterol", "disease": "High Cholesterol", "bodyPart": "Heart", "price": 150, "image": "https://www.biofieldpharma.com/wp-content/uploads/2024/12/BIOFIELD-ETORCUT-1-scaled.jpg" },
+    { "id": 14, "name": "Rosuvastatin", "brand": "Crestor", "category": "Heart Care", "subCategory": "High Cholesterol", "disease": "High Cholesterol", "bodyPart": "Heart", "price": 180, "image": "https://www.attopgx.com/uploads/medication-dictionary/5_1.webp" },
+
+    { "id": 15, "name": "Amlodipine", "brand": "Norvasc", "category": "Heart Care", "subCategory": "Hypertension", "disease": "Hypertension", "bodyPart": "Heart", "price": 100, "image": "https://xalmeds.com/cdn/shop/files/IMG_5775_1445x.jpg?v=1725837032" },
+    { "id": 16, "name": "Losartan", "brand": "Cozaar", "category": "Heart Care", "subCategory": "Hypertension", "disease": "Hypertension", "bodyPart": "Heart", "price": 120, "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWYelZV985CxdTjtBZxn8DkPx8Wc-apAsvPw&s" },
+
+    { "id": 17, "name": "Chloroquine", "brand": "Cipla", "category": "Infectious Disease", "subCategory": "Malaria", "disease": "Malaria", "bodyPart": "Blood", "price": 70, "image": "https://tiimg.tistatic.com/fp/1/007/494/chloroquine-phosphate-tablet-250mg-10x10-tablets-525.jpg" },
+    { "id": 18, "name": "Artemether", "brand": "Ipca", "category": "Infectious Disease", "subCategory": "Malaria", "disease": "Malaria", "bodyPart": "Blood", "price": 150, "image": "https://wellonapharma.com/admincms/product_img/product_resize_img/artemether-and-lumefantrine-tablets_1732541267.jpg" },
+
+    { "id": 19, "name": "Cyclobenzaprine", "brand": "Flexeril", "category": "Pain Relief", "subCategory": "Muscle Spasm", "disease": "Muscle Spasm", "bodyPart": "Bones", "price": 140, "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS0iGvyi4JB_XZHhHl49UxXTRSsnI1PVk66g&s" },
+    { "id": 20, "name": "Baclofen", "brand": "Lioresal", "category": "Pain Relief", "subCategory": "Muscle Spasm", "disease": "Muscle Spasm", "bodyPart": "Bones", "price": 160, "image": "https://alraipharma.com/wp-content/uploads/2024/11/Baclon-25-Box-Mock-up-1024x566.png" },
+
+    { "id": 21, "name": "Diclofenac", "brand": "Voveran", "category": "Pain Relief", "subCategory": "Pain Relief", "disease": "Pain Relief", "bodyPart": "Bones", "price": 90, "image": "https://cpimg.tistatic.com/10596926/b/4/Diclofenac-Tablets-BP-Gastro-resistant-100mg.png" },
+    { "id": 22, "name": "Ibuprofen", "brand": "Brufen", "category": "Pain Relief", "subCategory": "Pain Relief", "disease": "Pain Relief", "bodyPart": "Bones", "price": 80, "image": "https://5.imimg.com/data5/SELLER/Default/2023/7/325863554/WI/JM/SY/135658020/ibuprofen-tablets-ip-200-mg-.jpg" },
+
+    { "id": 23, "name": "Amoxicillin", "brand": "Mox", "category": "Infectious Disease", "subCategory": "Bacterial Infections", "disease": "Bacterial Infections", "bodyPart": "Lungs", "price": 110, "image": "https://irp.cdn-website.com/69c0b277/dms3rep/multi/Amoxicillin+-+Uses-+Side+Effects-+Composition-+Indications+and+Price.jpg" },
+    { "id": 24, "name": "Azithromycin", "brand": "Azee", "category": "Infectious Disease", "subCategory": "Bacterial Infections", "disease": "Bacterial Infections", "bodyPart": "Lungs", "price": 130, "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ7oM0y9qQlEhLah3QWEGG5FyuaIorRSttCg&s" },
+
+    { "id": 25, "name": "Eye Drops", "brand": "Refresh", "category": "Eye Care", "subCategory": "Eye Care", "disease": "Eye Issue", "bodyPart": "Eyes", "price": 90, "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQZkwvVCm-01I0DUjnGjZlPaYMEtwV0VO67g&s" },
+    { "id": 26, "name": "Lubricant Drops", "brand": "Systane", "category": "Eye Care", "subCategory": "Eye Care", "disease": "Eye Issue", "bodyPart": "Eyes", "price": 120, "image": "https://images.apollo247.in/pub/media/catalog/product/L/U/LUB0074_1_1.jpg" },
+
+    { "id": 27, "name": "Liver Tonic", "brand": "Himalaya", "category": "Digestive Care", "subCategory": "Liver Care", "disease": "Digestion", "bodyPart": "Liver", "price": 140, "image": "https://m.media-amazon.com/images/I/81X4pcfm1cL._AC_UF1000,1000_QL80_.jpg" },
+    { "id": 28, "name": "UDCA", "brand": "Abbott", "category": "Digestive Care", "subCategory": "Liver Care", "disease": "Digestion", "bodyPart": "Liver", "price": 300, "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkIAoLBH7llg0BLCSCTeFAvnxkKhcAKQjLBA&s" },
+
+    { "id": 29, "name": "Kidney Care", "brand": "Himalaya", "category": "Chronic Care", "subCategory": "Kidney Care", "disease": "Diabetes", "bodyPart": "Kidney", "price": 200, "image": "https://m.media-amazon.com/images/I/61lC0uSsMfL._AC_UF1000,1000_QL80_.jpg" },
+    { "id": 30, "name": "Nephro Tabs", "brand": "Cipla", "category": "Chronic Care", "subCategory": "Kidney Care", "disease": "Diabetes", "bodyPart": "Kidney", "price": 250, "image": "https://images.apollo247.in/pub/media/catalog/product/N/E/NEP0099_1_3.jpg" },
+
+    { "id": 31, "name": "Brain Booster", "brand": "Himalaya", "category": "Neurology", "subCategory": "Brain Care", "disease": "Hypertension", "bodyPart": "Brain", "price": 180, "image": "https://rukminim2.flixcart.com/image/480/640/xif0q/vitamin-supplement/q/j/l/30-brain-boost-for-memory-focus-pack-of-1-special-supplements-original-imahdyvdzbz7hffu.jpeg?q=90" },
+    { "id": 32, "name": "Neurobion", "brand": "Merck", "category": "Neurology", "subCategory": "Brain Care", "disease": "Hypertension", "bodyPart": "Brain", "price": 150, "image": "https://images.ctfassets.net/slxs295qmzdh/5qwU4L4ec8EspobEMkVKLV/656c2d19be59563bd6a6ccd0ea8f6955/Neurobion.png" },
+
+    { "id": 33, "name": "Bone Strength", "brand": "Shelcal", "category": "Pain Relief", "subCategory": "Bone Care", "disease": "Pain Relief", "bodyPart": "Bones", "price": 160, "image": "https://www.clinikally.com/cdn/shop/files/Shelcal500Calcium_VitaminD3Bone_MuscleHealthTablet15Tablets5_1200x1200_crop_center.jpg?v=1760095859" },
+    { "id": 34, "name": "Calcium Tabs", "brand": "Cipla", "category": "Pain Relief", "subCategory": "Bone Care", "disease": "Pain Relief", "bodyPart": "Bones", "price": 140, "image": "https://www.stelonbiotech.com/wp-content/uploads/2022/04/STELON-CIUMRICH-TAB-1-scaled.jpg" },
+
+    { "id": 35, "name": "Skin Cream", "brand": "Dermadew", "category": "Skin Care", "subCategory": "Skin Care", "disease": "Dandruff", "bodyPart": "Skin", "price": 120, "image": "https://static.meds.cvpharmacy.in/wp-content/uploads/2024/06/10485_b0e09aef-b8b8-4356-ba3b-dcaca93b8200_b0e09aef-b8b8-4356-ba3b-dcaca93b8200-1.jpg" },
+    { "id": 36, "name": "Anti Fungal", "brand": "Candid", "category": "Skin Care", "subCategory": "Skin Care", "disease": "Dandruff", "bodyPart": "Skin", "price": 130, "image": "https://static.meds.cvpharmacy.in/wp-content/uploads/2024/06/10655_8c43f74d-0691-48f0-abf6-72824f4e98cf_8c43f74d-0691-48f0-abf6-72824f4e98cf-1.jpg" },
+
+    { "id": 37, "name": "Cough Tablet", "brand": "Vicks", "category": "Respiratory Care", "subCategory": "Cough & Cold", "disease": "Cough & Cold", "bodyPart": "Lungs", "price": 60, "image": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/vks/vks00361/y/47.jpg" },
+    { "id": 38, "name": "Cold Syrup", "brand": "Zandu", "category": "Respiratory Care", "subCategory": "Cough & Cold", "disease": "Cough & Cold", "bodyPart": "Lungs", "price": 70, "image": "https://assets.truemeds.in/Images/ProductImage/TM-BAGE1-000043/zandu-ultra-power-balm-8ml-tm-bage1-000043_1.png0" },
+
+    { "id": 39, "name": "Fever Tablet", "brand": "Dolo", "category": "General Medicine", "subCategory": "Fever", "disease": "Fever", "bodyPart": "Head", "price": 55, "image": "https://lirp.cdn-website.com/69c0b277/dms3rep/multi/opt/Paracetamol+Dolo-650+Uses-+Side+Effects-+Composition+and+Price-1920w.jpg" },
+    { "id": 40, "name": "Fever Relief", "brand": "Calpol", "category": "General Medicine", "subCategory": "Fever", "disease": "Fever", "bodyPart": "Head", "price": 65, "image": "https://5.imimg.com/data5/GLADMIN/Default/2024/5/419781684/JY/HD/BS/216188416/calpol-500-mg-tablet-500x500.png" },
+
+    { "id": 41, "name": "Digestive Syrup", "brand": "Dabur", "category": "Digestive Care", "subCategory": "Digestion", "disease": "Digestion", "bodyPart": "Stomach", "price": 90, "image": "https://himalayawellness.in/cdn/shop/files/Trikatu-syrup.jpg?v=1694409120" },
+    { "id": 42, "name": "Gas Relief", "brand": "Eno", "category": "Digestive Care", "subCategory": "Digestion", "disease": "Digestion", "bodyPart": "Stomach", "price": 30, "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQagLz3QodkzAI9cwIJYIFd0kNpmnPy8L43pA&s" },
+
+    { "id": 43, "name": "BP Tablet", "brand": "Cipla", "category": "Heart Care", "subCategory": "Hypertension", "disease": "Hypertension", "bodyPart": "Heart", "price": 110, "image": "https://images.apollo247.in/pub/media/catalog/product/A/M/AMT0062_1_1.jpg?tr=q-80,f-webp,w-400,dpr-3,c-at_max%20400w" },
+    { "id": 44, "name": "Cholesterol Care", "brand": "Sun Pharma", "category": "Heart Care", "subCategory": "High Cholesterol", "disease": "High Cholesterol", "bodyPart": "Heart", "price": 170, "image": "https://www.bbassets.com/media/uploads/p/l/40128268_3-krishnas-cholesterol-care-juice-educes-excessive-appetite.jpg" },
+
+    { "id": 45, "name": "Pain Spray", "brand": "Volini", "category": "Pain Relief", "subCategory": "Pain Relief", "disease": "Pain Relief", "bodyPart": "Bones", "price": 180, "image": "https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/540dcbff114440cfacda6052b30fb24f.jpg" },
+    { "id": 46, "name": "Muscle Gel", "brand": "Moov", "category": "Pain Relief", "subCategory": "Muscle Spasm", "disease": "Muscle Spasm", "bodyPart": "Bones", "price": 150, "image": "data:image/png;base64,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" },
+
+    { "id": 47, "name": "Antibiotic", "brand": "Ciplox", "category": "Infectious Disease", "subCategory": "Bacterial Infections", "disease": "Bacterial Infections", "bodyPart": "Lungs", "price": 140, "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvj4UnDTRtjbDisqAToAzH1RpH-wTn5f4stQ&s" },
+    { "id": 48, "name": "Infection Care", "brand": "Zifi", "category": "Infectious Disease", "subCategory": "Bacterial Infections", "disease": "Bacterial Infections", "bodyPart": "Lungs", "price": 130, "image": "https://www.kabirlifescience.com/wp-content/uploads/2021/07/PINOCLQAV_CL_LB.png" },
+
+    { "id": 49, "name": "Malaria Cure", "brand": "Lariago", "category": "Infectious Disease", "subCategory": "Malaria", "disease": "Malaria", "bodyPart": "Blood", "price": 100, "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMhOLa3T_LWzygurfox1jCz5cDEJwjJdr4JQ&s" },
+    { "id": 50, "name": "Anti Malaria", "brand": "Falcigo", "category": "Infectious Disease", "subCategory": "Malaria", "disease": "Malaria", "bodyPart": "Blood", "price": 120, "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKK6NuNxxaC-3vDLhYsh2No8kQeqLszO9mZw&s" }
+  ],
+  
+    "beauty": [
+      {
+        "id": 1,
+        "section": "Makeup",
+        "subcategories": [
+          {
+            "id": 101,
+            "name": "Eyes",
+            "image": "https://images.unsplash.com/photo-1583001809873-a128495da465",
+            "products": [
+              {
+                "id": 1,
+                "name": "Lakme Eyeconic Kajal",
+                "price": 249,
+                "image": "https://pushmycart.in/cdn/shop/files/lakme-eyeconic-kajal-1000x1000.jpg?v=1734769836&width=990"
+              },
+              {
+                "id": 2,
+                "name": "Maybelline Colossal Mascara",
+                "price": 399,
+                "image": "https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/resize-w:2200/973040/IgcX7oZ8pF-973040_1.jpg"
+              },
+              {
+                "id": 3,
+                "name": "Lakme Liquid Eyeliner",
+                "price": 299,
+                "image": "https://rukminim2.flixcart.com/image/1536/1536/xif0q/eye-liner/5/v/r/4-5-9-to-5-liquid-eyeliner-matte-finish-lakm-original-imahhnf62qhexstd.jpeg?q=90"
+              },
+              {
+                "id": 4,
+                "name": "Swiss Beauty Eyeshadow Palette",
+                "price": 499,
+                "image": "https://swissbeauty.in/cdn/shop/files/SB-706_02.jpg?v=1748634793&width=528"
+              }
+            ]
+          },
+          {
+            "id": 102,
+            "name": "Makeup Brushes & Tools",
+            "image": "https://www.lakmeindia.com/cdn/shop/files/29691_H-8901030970481.jpg?v=1695884314",
+            "products": [
+              {
+                "id": 5,
+                "name": "Foundation Brush",
+                "price": 199,
+                "image": "https://img.freepik.com/free-psd/pink-black-makeup-brush-beauty-tool-cosmetic-accessory_632498-55633.jpg?semt=ais_hybrid&w=740&q=80"
+              },
+              {
+                "id": 6,
+                "name": "Makeup Blender Sponge",
+                "price": 149,
+                "image": "https://rukminim2.flixcart.com/image/1536/1536/xif0q/puff-sponge/5/v/n/make-up-sponge-beauty-blender-puff-1-1-large-grip-area-makeup-original-imagyqxfv8cf4jr2.jpeg?q=90"
+              },
+              {
+                "id": 7,
+                "name": "Complete Makeup Brush Set",
+                "price": 699,
+                "image": "https://www.milagrobeauty.com/cdn/shop/files/Copyofresized_1080x1080px_51.jpg?v=1769166865&width=1800"
+              }
+            ]
+          },
+          {
+            "id": 103,
+            "name": "Face Makeup",
+            "image": "https://images.unsplash.com/photo-1596462502278-27bfdc403348",
+            "products": [
+              {
+                "id": 8,
+                "name": "Maybelline Fit Me Foundation",
+                "price": 549,
+                "image": "https://m.media-amazon.com/images/I/41OUDlgEgnL._SL1080_.jpg"
+              },
+              {
+                "id": 9,
+                "name": "Lakme Compact Powder",
+                "price": 199,
+                "image": "https://m.media-amazon.com/images/I/51+grL76Z4L._SL1000_.jpg"
+              },
+              {
+                "id": 10,
+                "name": "Insight Blush",
+                "price": 180,
+                "image": "https://rukminim2.flixcart.com/image/1536/1536/xif0q/blush/l/h/l/-original-imahhh2nz5m8xzut.jpeg?q=90"
+              }
+            ]
+          },
+          {
+            "id": 104,
+            "name": "Nails",
+            "image": "https://images.unsplash.com/photo-1604654894610-df63bc536371",
+            "products": [
+              {
+                "id": 11,
+                "name": "Lakme Nail Color",
+                "price": 120,
+                "image": "https://m.media-amazon.com/images/I/416MqcpTTAL._SL1000_.jpg"
+              },
+              {
+                "id": 12,
+                "name": "Nykaa Matte Nail Paint",
+                "price": 199,
+                "image": "https://m.media-amazon.com/images/I/41FGzXLxjwL._SY300_SX300_QL70_FMwebp_.jpg"
+              },
+              {
+                "id": 13,
+                "name": "Nail Art Kit",
+                "price": 399,
+                "image": "https://m.media-amazon.com/images/I/51US66yfctL._SL1000_.jpg"
+              }
+            ]
+          }
+        ]
+      },
+  
+      {
+        "id": 2,
+        "section": "Mom & Baby",
+        "subcategories": [
+          {
+            "id": 201,
+            "name": "Baby Care",
+            "image": "https://images.unsplash.com/photo-1519689680058-324335c77eba",
+            "products": [
+              {
+                "id": 14,
+                "name": "Johnson Baby Lotion",
+                "price": 220,
+                "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQH_V2X3xgJ6G02B_dlF-Of1OC4FTei2Liv_IIRURwWGn3rLc0cOFmKFbAeeB5MWpAEivphez5ldLi7eJ36wcBgWpZ2VJZipfaPgoWUnqR3gVD2djPeaVu5"
+              },
+              {
+                "id": 15,
+                "name": "Himalaya Baby Powder",
+                "price": 180,
+                "image": "https://m.media-amazon.com/images/I/41RybT5XAiL._SY300_SX300_QL70_FMwebp_.jpg"
+              }
+            ]
+          },
+          {
+            "id": 202,
+            "name": "Baby Bathtime",
+            "image": "https://images.unsplash.com/photo-1595433562696-7f7e9f3c4e8b",
+            "products": [
+              {
+                "id": 16,
+                "name": "Johnson Baby Soap",
+                "price": 90,
+                "image": "https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/resize-w:2200/13751/6MNOU8nrF_-8901012116678_1.jpg"
+              },
+              {
+                "id": 17,
+                "name": "Baby Shampoo",
+                "price": 150,
+                "image": "https://m.media-amazon.com/images/I/51XYbqj57pL._SL1000_.jpg"
+              }
+            ]
+          },
+          {
+            "id": 203,
+            "name": "Feminine Hygiene",
+            "image": "https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2",
+            "products": [
+              {
+                "id": 18,
+                "name": "Whisper Sanitary Pads",
+                "price": 120,
+                "image": "https://m.media-amazon.com/images/I/716DO7i8vXL._SL1500_.jpg"
+              },
+              {
+                "id": 19,
+                "name": "Stayfree Sanitary Pads",
+                "price": 110,
+                "image": "https://m.media-amazon.com/images/I/41cD61YMSmL._SY300_SX300_QL70_FMwebp_.jpg"
+              }
+            ]
+          },
+          {
+            "id": 204,
+            "name": "Maternity Care",
+            "image": "https://images.unsplash.com/photo-1584515933487-779824d29309",
+            "products": [
+              {
+                "id": 20,
+                "name": "Stretch Mark Cream",
+                "price": 350,
+                "image": "https://m.media-amazon.com/images/I/51UjeBB1KSL._SL1080_.jpg"
+              },
+              {
+                "id": 21,
+                "name": "Maternity Body Lotion",
+                "price": 420,
+                "image": "https://duckduckbaby.in/cdn/shop/files/DDB5404_1.jpg?v=1713147284"
+              }
+            ]
+          }
+        ]
+      },
+  
+      {
+        "id": 3,
+        "section": "Personal Care",
+        "subcategories": [
+          {
+            "id": 301,
+            "name": "Bath & Shower",
+            "image": "https://images.unsplash.com/photo-1585238342024-78d387f4a707",
+            "products": [
+              {
+                "id": 22,
+                "name": "Dove Body Wash",
+                "price": 299,
+                "image": "https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/resize-w:2200/1018306/XBGy--O-t6-1018306-1.jpg"
+              },
+              {
+                "id": 23,
+                "name": "Lux Soap",
+                "price": 70,
+                "image": "https://m.media-amazon.com/images/I/417e9wniWyL._SY300_SX300_QL70_FMwebp_.jpg"
+              }
+            ]
+          },
+          {
+            "id": 302,
+            "name": "Oral Health",
+            "image": "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5",
+            "products": [
+              {
+                "id": 24,
+                "name": "Colgate Toothpaste",
+                "price": 120,
+                "image": "https://m.media-amazon.com/images/I/71hKnKSJv9L._SL1500_.jpg"
+              },
+              {
+                "id": 25,
+                "name": "Oral B Toothbrush",
+                "price": 126,
+                "image": "https://m.media-amazon.com/images/I/41T7S9UC1XL._SY300_SX300_QL70_FMwebp_.jpg"
+              }
+            ]
+          },
+          {
+            "id": 303,
+            "name": "Lips Care",
+            "image": "https://images.unsplash.com/photo-1586495777744-4413f21062fa",
+            "products": [
+              {
+                "id": 26,
+                "name": "Nivea Lip Balm",
+                "price": 180,
+                "image": "https://m.media-amazon.com/images/I/614Aoszkw6L._SL1200_.jpg"
+              },
+              {
+                "id": 27,
+                "name": "Maybelline Baby Lips",
+                "price": 199,
+                "image": "https://m.media-amazon.com/images/I/41-jYeg9HGL._SY300_SX300_QL70_FMwebp_.jpg"
+              },
+              {
+                "id": 28,
+                "name": "Lakme lipstick",
+                "price": 349,
+                "image": "https://m.media-amazon.com/images/I/51jrXBXRR3L._SL1300_.jpg"
+              }
+
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
+  
