@@ -29,26 +29,24 @@ The project demonstrates **React, Redux Toolkit, routing, and dynamic product fi
 
 ---
 
-
 ## 📂 Project Structure
-
+```
 src
 │
 ├── Components
-│ └── Navbar
+│   └── Navbar
 │
 ├── Pages
-│ ├── Home.jsx
-│ ├── Beauty.jsx
-│ └── Cart.jsx
+│   ├── Home.jsx
+│   ├── Beauty.jsx
+│   └── Cart.jsx
 │
 ├── Redux
-│ ├── Slice
-│ │ ├── BeautySlice.js
-│ │ └── AuthSlice.js
-│ │
-│ └── Action.js
+│   ├── Slice
+│   │   ├── BeautySlice.js
+│   │   └── AuthSlice.js
+│   │
+│   └── Action.js
 │
 └── App.jsx
-
-
+```
