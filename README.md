@@ -50,3 +50,7 @@ src
 │
 └── App.jsx
 ```
+
+## 📸 Website Screenshot
+
+![Home Page](screenshots/home.png)
